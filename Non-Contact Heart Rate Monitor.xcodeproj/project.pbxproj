@@ -12,6 +12,8 @@
 		D81807FE2B8E1BDF002911BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81807FD2B8E1BDF002911BE /* Assets.xcassets */; };
 		D81808012B8E1BDF002911BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81807FF2B8E1BDF002911BE /* Main.storyboard */; };
 		D87B5E302B8E7588007EE726 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = D87B5E2F2B8E7588007EE726 /* ORSSerial */; };
+		D87B5E332B8E7903007EE726 /* dot.radiowaves.left.and.right.png in Resources */ = {isa = PBXBuildFile; fileRef = D87B5E312B8E7903007EE726 /* dot.radiowaves.left.and.right.png */; };
+		D87B5E342B8E7903007EE726 /* EHF_Radar_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D87B5E322B8E7903007EE726 /* EHF_Radar_Logo.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		D81807FD2B8E1BDF002911BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D81808002B8E1BDF002911BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D81808022B8E1BDF002911BE /* Non_Contact_Heart_Rate_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Non_Contact_Heart_Rate_Monitor.entitlements; sourceTree = "<group>"; };
+		D87B5E312B8E7903007EE726 /* dot.radiowaves.left.and.right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.radiowaves.left.and.right.png; sourceTree = SOURCE_ROOT; };
+		D87B5E322B8E7903007EE726 /* EHF_Radar_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EHF_Radar_Logo.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 				D81807FB2B8E1BDE002911BE /* ViewController.swift */,
 				D81807FD2B8E1BDF002911BE /* Assets.xcassets */,
 				D81807FF2B8E1BDF002911BE /* Main.storyboard */,
+				D87B5E312B8E7903007EE726 /* dot.radiowaves.left.and.right.png */,
+				D87B5E322B8E7903007EE726 /* EHF_Radar_Logo.png */,
 				D81808022B8E1BDF002911BE /* Non_Contact_Heart_Rate_Monitor.entitlements */,
 			);
 			path = "Non-Contact Heart Rate Monitor";
@@ -128,6 +134,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				D81807FE2B8E1BDF002911BE /* Assets.xcassets in Resources */,
+				D87B5E342B8E7903007EE726 /* EHF_Radar_Logo.png in Resources */,
+				D87B5E332B8E7903007EE726 /* dot.radiowaves.left.and.right.png in Resources */,
 				D81808012B8E1BDF002911BE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
