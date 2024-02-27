@@ -842,15 +842,6 @@
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
-                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1Q-vb-pcu">
-                                <rect key="frame" x="153" y="535" width="207" height="16"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="clipping" title="Nanoelectronics Research Center" placeholderString="HR" id="Gyq-rd-rA0">
-                                    <font key="font" metaFont="system"/>
-                                    <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                </textFieldCell>
-                            </textField>
                             <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5lW-eg-35v">
                                 <rect key="frame" x="220" y="313" width="111" height="33"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
@@ -883,19 +874,18 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="dot.radiowaves.left.and.right" id="HlC-b7-SVG"/>
                             </imageView>
-                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eHn-f9-Cq7">
-                                <rect key="frame" x="35" y="20" width="296" height="107"/>
+                            <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="c1Q-vb-pcu">
+                                <rect key="frame" x="132" y="8" width="226" height="16"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <textFieldCell key="cell" lineBreakMode="charWrapping" truncatesLastVisibleLine="YES" continuous="YES" enabled="NO" borderStyle="bezel" placeholderString="Body Movement" bezelStyle="round" id="FTv-6v-Hqe">
+                                <textFieldCell key="cell" lineBreakMode="clipping" title=" © Nanoelectronics Research Center" placeholderString="HR" id="Gyq-rd-rA0">
                                     <font key="font" metaFont="system"/>
-                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="textColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
                             </textField>
                         </subviews>
                     </view>
                     <connections>
-                        <outlet property="HRG" destination="eHn-f9-Cq7" id="TG1-H6-iZH"/>
                         <outlet property="bodyMovement" destination="bS2-Vz-btf" id="Vr4-vG-jHF"/>
                         <outlet property="btnconnect" destination="xQx-UP-N90" id="96Z-KD-0lm"/>
                         <outlet property="combo1" destination="QoC-S7-Chu" id="FUE-cK-G3n"/>

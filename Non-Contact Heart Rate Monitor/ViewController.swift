@@ -88,7 +88,7 @@ class ViewController: NSViewController,  ORSSerialPortDelegate {
                                     for m in 0...99 {
                                         hrsdr = hrsdr + "," + String(RHR[minu+m])
                                     }
-                                    HRG.stringValue = hrsdr
+                                    //HRG.stringValue = hrsdr
                                     print(hrsdr)
                                 }
                             }
