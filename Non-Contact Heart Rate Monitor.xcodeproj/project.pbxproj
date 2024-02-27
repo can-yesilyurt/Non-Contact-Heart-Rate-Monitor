@@ -11,6 +11,7 @@
 		D81807FC2B8E1BDE002911BE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D81807FB2B8E1BDE002911BE /* ViewController.swift */; };
 		D81807FE2B8E1BDF002911BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D81807FD2B8E1BDF002911BE /* Assets.xcassets */; };
 		D81808012B8E1BDF002911BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D81807FF2B8E1BDF002911BE /* Main.storyboard */; };
+		D87B5E302B8E7588007EE726 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = D87B5E2F2B8E7588007EE726 /* ORSSerial */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87B5E302B8E7588007EE726 /* ORSSerial in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,6 +79,9 @@
 			dependencies = (
 			);
 			name = "Non-Contact Heart Rate Monitor";
+			packageProductDependencies = (
+				D87B5E2F2B8E7588007EE726 /* ORSSerial */,
+			);
 			productName = "Non-Contact Heart Rate Monitor";
 			productReference = D81807F62B8E1BDE002911BE /* Non-Contact Heart Rate Monitor.app */;
 			productType = "com.apple.product-type.application";
@@ -105,6 +110,9 @@
 				Base,
 			);
 			mainGroup = D81807ED2B8E1BDE002911BE;
+			packageReferences = (
+				D87B5E2E2B8E7588007EE726 /* XCRemoteSwiftPackageReference "ORSSerialPort" */,
+			);
 			productRefGroup = D81807F72B8E1BDE002911BE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -344,6 +352,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D87B5E2E2B8E7588007EE726 /* XCRemoteSwiftPackageReference "ORSSerialPort" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/armadsen/ORSSerialPort";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D87B5E2F2B8E7588007EE726 /* ORSSerial */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D87B5E2E2B8E7588007EE726 /* XCRemoteSwiftPackageReference "ORSSerialPort" */;
+			productName = ORSSerial;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D81807EE2B8E1BDE002911BE /* Project object */;
 }
