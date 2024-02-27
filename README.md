@@ -13,6 +13,8 @@ Documentation about the hardware can be found at [Seed-Studio Wiki](https://wiki
 
 Tested in MacBook Pro M2 Max - connected with both of the above methods.
 
+Non-Contact-Heart-Rate-Monitor is released under an MIT license, meaning you're free to use it in both closed and open source projects. However, even in a closed source project, you must include a publicly-accessible copy of Non-Contact-Heart-Rate-Monitor's copyright notice, which you can find in the LICENSE file.
+
 ![alt text](https://github.com/can-yesilyurt/Non-Contact-Heart-Rate-Monitor/blob/main/app_git.png?raw=true)
 
-Non-Contact-Heart-Rate-Monitor is released under an MIT license, meaning you're free to use it in both closed and open source projects. However, even in a closed source project, you must include a publicly-accessible copy of Non-Contact-Heart-Rate-Monitor's copyright notice, which you can find in the LICENSE file.
+
