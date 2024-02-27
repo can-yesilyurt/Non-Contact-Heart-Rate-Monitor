@@ -1,4 +1,4 @@
-OSX Application serial interface for Seeed-Studio 60GHz mmWave Module - Respiratory Heartbeat Detection.
+OSX Application implementing serial interface for Seeed-Studio 60GHz mmWave Module - Respiratory Heartbeat Detection.
 
 Implemented functions:   
 
@@ -8,6 +8,8 @@ Implemented functions:
 - Position of the body (none, stationary, active)
 
 mmWave radar Module can be connected to Mac by using usb-serial converter or bluetooth-serial module
+
+Documentation about the hardware can be found at [Seed-Studio Wiki](https://wiki.seeedstudio.com/Radar_MR60BHA1/).
 
 Tested in MacBook Pro M2 Max - connected with both of the above methods.
 
