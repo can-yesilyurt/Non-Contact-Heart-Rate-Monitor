@@ -10,3 +10,5 @@ Implemented functions:
 mmWave radar Module can be connected to Mac by using usb-serial converter or bluetooth-serial module
 
 Tested in MacBook Pro M2 Max - connected with both of the above methods.
+
+![alt text](https://github.com/can-yesilyurt/Non-Contact-Heart-Rate-Monitor/blob/main/app_git.png?raw=true)
