@@ -9,9 +9,13 @@ Implemented functions:
 
 mmWave radar Module can be connected to Mac by using usb-serial converter or bluetooth-serial module
 
+Tested in MacBook Pro M2 Max - connected with both of the above methods.
+
 Documentation about the hardware can be found at [Seed-Studio Wiki](https://wiki.seeedstudio.com/Radar_MR60BHA1/).
 
-Tested in MacBook Pro M2 Max - connected with both of the above methods.
+Dependencies:
+
+[ORSSerialPort](https://github.com/armadsen/ORSSerialPort.git)
 
 Non-Contact-Heart-Rate-Monitor is released under an MIT license, meaning you're free to use it in both closed and open source projects. However, even in a closed source project, you must include a publicly-accessible copy of Non-Contact-Heart-Rate-Monitor's copyright notice, which you can find in the LICENSE file.
 
