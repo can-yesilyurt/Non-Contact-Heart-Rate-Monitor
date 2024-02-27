@@ -4,16 +4,16 @@ OSX Application implementing serial interface for Seeed-Studio 60GHz mmWave Modu
 
 ## Implemented functions:   
 
-- Non-contact detection of heart rate with around 2m distance
+- Non-contact detection of heart rate with around 2 m distance
 - Distance of the target body (in cm)
-- Detection of any movement of the target body (magnitude between 1-100)
-- Position of the body (none, stationary, active)
+- Detection of any movement of the target body (outputs a magnitude between 1-100)
+- Position of the body (i.e., None | Stationary | Active)
 
 ## Setup
 
 mmWave radar Module can be connected to Mac by using usb-serial converter or bluetooth-serial module
 
-Tested in MacBook Pro M2 Max - connected with both of the above methods.
+Tested in MacBook Pro M2 Max - connected with both of the above mentioned methods.
 
 Documentation about the hardware can be found at [Seed-Studio Wiki](https://wiki.seeedstudio.com/Radar_MR60BHA1/).
 
