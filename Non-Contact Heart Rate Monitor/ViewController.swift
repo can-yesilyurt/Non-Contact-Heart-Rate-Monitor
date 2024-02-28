@@ -68,7 +68,7 @@ class ViewController: NSViewController,  ORSSerialPortDelegate {
             for i in 0...count-3{
                 datastr = ""
                 if data[i] == 83 && data[i+1] == 89 {
-                    for j in 0...count-i-3 {
+                    for j in 0...((count-i)-3)-3 {
                         if data[i+j+2] == 84 && data[i+j+3] == 67 {
                             break
                         }
