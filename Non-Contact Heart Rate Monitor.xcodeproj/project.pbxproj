@@ -14,6 +14,7 @@
 		D87B5E302B8E7588007EE726 /* ORSSerial in Frameworks */ = {isa = PBXBuildFile; productRef = D87B5E2F2B8E7588007EE726 /* ORSSerial */; };
 		D87B5E332B8E7903007EE726 /* dot.radiowaves.left.and.right.png in Resources */ = {isa = PBXBuildFile; fileRef = D87B5E312B8E7903007EE726 /* dot.radiowaves.left.and.right.png */; };
 		D87B5E342B8E7903007EE726 /* EHF_Radar_Logo.png in Resources */ = {isa = PBXBuildFile; fileRef = D87B5E322B8E7903007EE726 /* EHF_Radar_Logo.png */; };
+		D87B5E362B8EB28F007EE726 /* App_SC.png in Resources */ = {isa = PBXBuildFile; fileRef = D87B5E352B8EB28F007EE726 /* App_SC.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		D81808022B8E1BDF002911BE /* Non_Contact_Heart_Rate_Monitor.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Non_Contact_Heart_Rate_Monitor.entitlements; sourceTree = "<group>"; };
 		D87B5E312B8E7903007EE726 /* dot.radiowaves.left.and.right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dot.radiowaves.left.and.right.png; sourceTree = SOURCE_ROOT; };
 		D87B5E322B8E7903007EE726 /* EHF_Radar_Logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EHF_Radar_Logo.png; sourceTree = SOURCE_ROOT; };
+		D87B5E352B8EB28F007EE726 /* App_SC.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = App_SC.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				D81807F92B8E1BDE002911BE /* AppDelegate.swift */,
 				D81807FB2B8E1BDE002911BE /* ViewController.swift */,
 				D81807FD2B8E1BDF002911BE /* Assets.xcassets */,
+				D87B5E352B8EB28F007EE726 /* App_SC.png */,
 				D81807FF2B8E1BDF002911BE /* Main.storyboard */,
 				D87B5E312B8E7903007EE726 /* dot.radiowaves.left.and.right.png */,
 				D87B5E322B8E7903007EE726 /* EHF_Radar_Logo.png */,
@@ -135,6 +138,7 @@
 			files = (
 				D81807FE2B8E1BDF002911BE /* Assets.xcassets in Resources */,
 				D87B5E342B8E7903007EE726 /* EHF_Radar_Logo.png in Resources */,
+				D87B5E362B8EB28F007EE726 /* App_SC.png in Resources */,
 				D87B5E332B8E7903007EE726 /* dot.radiowaves.left.and.right.png in Resources */,
 				D81808012B8E1BDF002911BE /* Main.storyboard in Resources */,
 			);
