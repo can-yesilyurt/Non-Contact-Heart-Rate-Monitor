@@ -28,6 +28,6 @@ Non-Contact-Heart-Rate-Monitor is released under an MIT license, meaning you're 
 
 ##App ScreenShot
 
-![alt text](https://github.com/can-yesilyurt/Non-Contact-Heart-Rate-Monitor/blob/main/app_git.png?raw=true)
+![alt text](https://github.com/can-yesilyurt/Non-Contact-Heart-Rate-Monitor/blob/main/Non-Contact%20Heart%20Rate%20Monitor/App_SC.png?raw=true)
 
 
